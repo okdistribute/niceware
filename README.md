@@ -1,28 +1,6 @@
-# niceware
+# niceware-eff
 
-[![Build Status](https://travis-ci.org/diracdeltas/niceware.svg?branch=master)](https://travis-ci.org/diracdeltas/niceware)
-
-A JS library for generating random-yet-memorable passwords, either server-side in Node or in the browser. Each word provides 16 bits of entropy, so a useful password requires at least 3 words.
-
-Because the wordlist is of exactly size 2^16, Niceware is also useful for convert cryptographic keys and other sequences of random bytes into human-readable phrases. With Niceware, a 128-bit key is equivalent to an 8-word phrase.
-
-Demo: https://diracdeltas.github.io/niceware/
-
-**WARNING: The wordlist has not been rigorously checked for offensive words.
-Use at your own risk.**
-
-## Sample use cases
-
-* Niceware can be used to generate secure, semi-memorable, easy-to-type
-  passphrases. A random 3-5 word phrase in Niceware is equivalent to a strong
-  password for authentication to most online services. For instance,
-  `+8svofk0Y1o=` and `bacca cavort west volley` are equally strong (64 bits of
-  randomness).
-* Niceware can be used to display cryptographic key material in a way that
-  users can easily backup or copy between devices. For instance, the 128-bit
-  random seed used to generate a 256-bit ECC key (~equivalent to
-  a 3072-bit RSA key) is only 8 Niceware words. With this 8-word phrase, you
-  can reconstruct the entire public/private key pair.
+This package is a fork of niceware that uses a wordlist based on the [EFF's New Wordlists for Random Passphrases](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases). Because this wordlist is much smaller, it is only useful in scenarios such where brute force attacks are minimized by some other mechanism, such as only giving attackers one chance to guess the password.
 
 ## Usage in Node
 
