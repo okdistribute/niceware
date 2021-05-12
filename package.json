@@ -1,6 +1,6 @@
 {
-  "name": "niceware",
-  "version": "2.0.2",
+  "name": "niceware-eff",
+  "version": "1.0.0",
   "description": "Utility for generating memorable passwords and converting random bytes into human-readable phrases",
   "keywords": [
     "diceware",
@@ -15,7 +15,7 @@
     "entropy",
     "encryption"
   ],
-  "homepage": "http://www.github.com/diracdeltas/niceware",
+  "homepage": "http://www.github.com/okdistribute/niceware-eff",
   "main": "lib/main.js",
   "devDependencies": {
     "browserify": "^16.5.0",
@@ -39,7 +39,7 @@
   "author": "yan <yan@mit.edu>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/diracdeltas/niceware.git"
+    "url": "git://github.com/okdistribute/niceware-eff.git"
   },
   "license": "MIT",
   "dependencies": {
