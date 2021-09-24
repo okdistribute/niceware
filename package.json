@@ -15,7 +15,7 @@
     "entropy",
     "encryption"
   ],
-  "homepage": "http://www.github.com/okdistribute/niceware-eff",
+  "homepage": "http://www.github.com/okdistribute/niceware",
   "main": "lib/main.js",
   "devDependencies": {
     "browserify": "^16.5.0",
@@ -39,7 +39,7 @@
   "author": "yan <yan@mit.edu>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/okdistribute/niceware-eff.git"
+    "url": "git://github.com/okdistribute/niceware.git"
   },
   "license": "MIT",
   "dependencies": {
